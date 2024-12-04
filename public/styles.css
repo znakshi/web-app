@@ -1,0 +1,70 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the form */
+#userForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#userForm input,
+#userForm button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Styling for input fields */
+#userForm input:focus {
+    outline-color: #ffffff;
+    border-color: #0f4d12;
+}
+
+#userForm button {
+    background-color: #0f4d12;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#userForm button:hover {
+    background-color: #147e1a;
+}
+
+/* Styling the table */
+#usersTable {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+#usersTable th,
+#usersTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#usersTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#usersTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#usersTable tr:hover {
+    background-color: #f1f1f1;
+}
